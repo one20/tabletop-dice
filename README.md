@@ -3,6 +3,7 @@
 ## Contents
 * [Summary](#summary)
 * [Methods](#methods)
+* [Usage](#usage)
 
 ## Summary
 `Dice` is a module that provides helper functions to simulate various 
@@ -48,3 +49,17 @@ dice types used in tabletop games.
 | **disadvantage**():```object```       |
 | :---------------------------------------------------------------------------- |
 | Returns an object with two properties: `value` & `rolls`. `rolls` is an array of two random integers from **1 to 20** (d20). `value` is an integer equal to the lower of the two numbers in the `rolls` array.|
+
+## Example Usage
+```
+let Dice = require('tabletop-dice')
+
+//Roll a d4
+Dice.d4() //Example output: 3
+
+//Roll 4 d8's
+Dice.d8(4)  //Example output: [2,6,3,8]
+
+//Roll at advantage
+Dice.advantage() //Example output: { value: 14, rolls: [6, 14]}
+```
