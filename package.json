@@ -1,0 +1,29 @@
+{
+  "name": "tabletop-dice",
+  "version": "1.0.0",
+  "description": "Helper functions simulating various dice for tabletop games",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/one20/tabletop-dice.git"
+  },
+  "keywords": [
+    "tabletop",
+    "dice",
+    "d&d",
+    "carlo",
+    "alducente"
+  ],
+  "author": "Carlo Alducente <carlo@alducente.com> (https://alducente.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/one20/tabletop-dice/issues"
+  },
+  "homepage": "https://github.com/one20/tabletop-dice#readme",
+  "devDependencies": {
+    "mocha": "^6.1.2"
+  }
+}
