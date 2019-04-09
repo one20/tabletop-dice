@@ -50,7 +50,7 @@ dice types used in tabletop games.
 | :---------------------------------------------------------------------------- |
 | Returns an object with two properties: `value` & `rolls`. `rolls` is an array of two random integers from **1 to 20** (d20). `value` is an integer equal to the lower of the two numbers in the `rolls` array.|
 
-## Example Usage
+## Usage
 ```
 let Dice = require('tabletop-dice')
 
