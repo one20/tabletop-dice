@@ -1,6 +1,6 @@
 {
   "name": "tabletop-dice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helper functions simulating various dice for tabletop games",
   "main": "index.js",
   "scripts": {
