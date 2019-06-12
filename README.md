@@ -7,7 +7,7 @@
 
 ## Summary
 `Dice` is a module that provides helper functions to simulate various 
-dice types used in tabletop games. 
+dice types used in tabletop games. This is the engine running  [diceroll.fun](https://www.diceroll.fun).
 
 ## Methods
 | **roll**( maxValue:```integer```, quantity:```integer```=1 ):```integer/array```       |
